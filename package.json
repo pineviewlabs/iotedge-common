@@ -1,0 +1,41 @@
+{
+  "name": "@pineview/iotedge-common",
+  "version": "0.1.6",
+  "description": "",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pineviewlabs/iotedge-common.git"
+  },
+  "keywords": [
+    "IoT",
+    "IoTEdge",
+    "Azure IoT Edge"
+  ],
+  "author": {
+    "name": "Pine View Software AS",
+    "email": "hello@pineview.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pineviewlabs/iotedge-common/issues"
+  },
+  "homepage": "https://github.com/pineviewlabs/iotedge-common#readme",
+  "scripts": {
+    "eslint": "eslint ."
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE.md",
+    "package.json",
+    "package-lock.json"
+  ]
+}
