@@ -25,6 +25,10 @@
     "eslint": "eslint ."
   },
   "dependencies": {
+    "azure-iot-device": "^1.17.3",
+    "azure-iot-device-amqp": "^1.13.3",
+    "azure-iot-device-http": "^1.13.3",
+    "azure-iot-device-mqtt": "^1.15.3",
     "dotenv": "^8.2.0",
     "winston": "^3.3.3"
   },
