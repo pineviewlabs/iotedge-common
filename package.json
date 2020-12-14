@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/pineviewlabs/iotedge-common#readme",
   "scripts": {
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "test": "mocha test/src"
   },
   "dependencies": {
     "azure-iot-device": "^1.17.3",
@@ -33,7 +34,8 @@
     "winston": "^3.3.3"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.11.0",
+    "mocha": "^8.2.1"
   },
   "files": [
     "lib",
