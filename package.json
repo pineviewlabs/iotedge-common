@@ -39,6 +39,7 @@
   },
   "files": [
     "lib",
+    "utils",
     "README.md",
     "LICENSE.md",
     "package.json",

@@ -1,5 +1,5 @@
 const assert = require('assert');
-const Monitor = require('../../utils/monitor.js');
+const {Monitor} = require('../../utils');
 
 describe('Retry Tests', function() {
 
