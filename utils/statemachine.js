@@ -1,11 +1,14 @@
 const Events = require('events');
 
 module.exports = class StateMachine extends Events {
-  constructor({broadcastInterval, states}) {
+  constructor({broadcastInterval, states, currentState}) {
     super();
 
     this.lastBroadcastTime = null;
     this.broadcastInterval = broadcastInterval;
+    if (currentState) {
+      this.currentState = currentState;
+    }
 
     const {stateOK, stateALERT} = states;
     this.states = {
@@ -15,7 +18,7 @@ module.exports = class StateMachine extends Events {
   }
 
   broadcastStateChange(newState, oldState) {
-    if (newState !== oldState && oldState) {
+    if (newState !== oldState && (oldState || !this.lastBroadcastTime)) {
       return true;
     }
 
