@@ -26,17 +26,17 @@
     "test": "mocha test/src"
   },
   "dependencies": {
-    "azure-iot-device": "^1.17.3",
-    "azure-iot-device-amqp": "^1.13.3",
-    "azure-iot-device-http": "^1.13.3",
-    "azure-iot-device-mqtt": "^1.15.3",
-    "dotenv": "^8.2.0",
+    "azure-iot-device": "^1.18.3",
+    "azure-iot-device-amqp": "^1.14.3",
+    "azure-iot-device-http": "^1.14.3",
+    "azure-iot-device-mqtt": "^1.16.3",
+    "dotenv": "^16.3.1",
     "lodash.merge": "^4.6.2",
-    "winston": "^3.3.3"
+    "winston": "^3.11.0"
   },
   "devDependencies": {
-    "eslint": "^7.11.0",
-    "mocha": "^8.2.1"
+    "eslint": "^8.51.0",
+    "nightwatch": "^3.2.1"
   },
   "files": [
     "lib",
