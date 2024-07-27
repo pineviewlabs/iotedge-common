@@ -30,6 +30,9 @@
     "azure-iot-device-amqp": "^1.14.3",
     "azure-iot-device-http": "^1.14.3",
     "azure-iot-device-mqtt": "^1.16.3",
+    "azure-iot-provisioning-device": "^1.9.1",
+    "azure-iot-security-symmetric-key": "^1.8.2",
+    "azure-iot-provisioning-device-mqtt": "^1.8.1",
     "dotenv": "^16.3.1",
     "lodash.merge": "^4.6.2",
     "winston": "^3.11.0"
